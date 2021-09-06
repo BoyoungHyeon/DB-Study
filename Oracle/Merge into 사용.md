@@ -1,6 +1,6 @@
 
 #### MySQL - ON DUPLICATE KEY
-```mysql
+```sql
 insert into cms_main
 			(
 			siteid, maintype, rollyn, rolltime, insertdate, insertuser,
@@ -28,7 +28,7 @@ ON DUPLICATE KEY를 이용하여 INSERT하지 않고, UPDATE 해준다.
 
 
 #### Oracle - Merge into 사용
-```oracle
+```sql
 <insert id="mainInsert">
 
 		MERGE INTO cms_main
